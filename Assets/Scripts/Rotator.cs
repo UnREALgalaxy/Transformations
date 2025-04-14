@@ -11,6 +11,6 @@ public class Rotator : MonoBehaviour
 
     private void Rotate()
     {
-        transform.Rotate(Vector3.up, _speed * Time.deltaTime);
+        transform.Rotate(transform.up, _speed * Time.deltaTime);
     }
 }

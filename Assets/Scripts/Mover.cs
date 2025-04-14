@@ -11,6 +11,6 @@ public class Mover : MonoBehaviour
 
     private void Move()
     {
-        transform.Translate(transform.forward * Time.deltaTime * _speed);
+        transform.position += transform.forward * _speed * Time.deltaTime;
     }
 }
